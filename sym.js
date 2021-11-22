@@ -1,8 +1,7 @@
 import SnakeRenderer from './lib/SnakeRenderer.js';
-import SnakeShadows from './lib/SnakeShadows.js';
-// const snakeOne = new SnakeRenderer('snake-one', '../models/teddy-snake.glb');
+import Constants from './lib/Constants.js';
 
-
-const snakeOne = new SnakeShadows('snake-one', '../models/teddy-snake.glb');
-
+for (const k in Constants.snakes) {
+	const s = new SnakeRenderer(Constants.snakes[k]);
+}
 

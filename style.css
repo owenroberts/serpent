@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
 	box-sizing: border-box;
 }
 
 body {
 	font-size: 18px;
-	font-family: Verdana, sans-serif;
+	font-family: 'PT Serif', serif;
 }
 
 main {
@@ -12,3 +14,14 @@ main {
 	margin: 0 auto;
 }
 
+main p {
+	width:  720px;
+	line-height:  1.4;
+	margin: 1em auto;
+}
+
+canvas {
+	background-color:  #e8e8e8;
+	width:  960px;
+	height:  480px;
+}

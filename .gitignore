@@ -2,3 +2,7 @@
 blenders/
 doc/
 notes.txt
+reading/
+reference
+*.gdoc
+snake_scene_three_editor.json
